@@ -64,7 +64,7 @@ open class CHIPageControlAleppo: CHIBasePageControl {
 
         let normalized = progress * Double(diameter + padding)
         let distance = abs(round(progress) - progress)
-        let mult = 1 + distance * 2
+        let mult = 1 + distance * 4
 
         var frame = active.frame
 

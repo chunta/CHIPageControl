@@ -197,10 +197,10 @@ import UIKit
         let b = fabsf(Float(progress))
         
         if a > b {
-            self.progress += 0.1
+            self.progress += 0.025
         }
         if a < b {
-            self.progress -= 0.1
+            self.progress -= 0.025
         }
         
         if a == b {
